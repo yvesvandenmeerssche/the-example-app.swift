@@ -6,6 +6,7 @@ inhibit_all_warnings!
 
 target 'the-example-app.swift' do
   pod 'Contentful', '~> 4'
+  pod 'ContentfulRichTextRenderer'
   pod 'Firebase/Core'
   pod 'SnowplowTracker'
   pod 'markymark'
