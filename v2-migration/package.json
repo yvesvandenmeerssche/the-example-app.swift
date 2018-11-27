@@ -1,0 +1,17 @@
+{
+  "name": "v2-migration",
+  "version": "1.0.0",
+  "description": "Migrate TEA lessons to rich text",
+  "main": "lessons-to-rich-text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@contentful/rich-text-from-markdown": "^10.2.0",
+    "contentful-migration": "^0.15.0",
+    "lodash": "^4.17.11",
+    "ndb": "^1.0.33"
+  }
+}
